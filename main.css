@@ -1,0 +1,69 @@
+body {
+    background-color: lightblue !important;
+    background-image: url("img/toy2.jpg");
+    background-size:85%;
+}
+
+.container {
+    width: 40% !important;
+    max-width: 600px !important;
+}
+
+section > div {
+    margin-bottom: 5%;
+}
+
+.btn-instagram {
+    background-color: #B13586 !important;
+}
+
+.btn-facebook {
+    background-color: #3B5998 !important;
+}
+
+.btn-twitter {
+    background-color: #1C9CEA !important;
+}
+
+.btn:hover {
+    transition: 1s all;
+    transform: scale(1.2);
+    box-shadow: 5px 6px 8px rgb(39, 36, 36);
+}
+
+footer p, footer a {
+    color: white;
+    text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}
+
+
+footer a:hover, img:hover {
+    font-weight: bold;
+}
+
+/*@media*/
+
+@media (max-width: 800px) {
+    
+    .container {
+        width: 86% !important;
+    }
+
+    section .col-md-10 {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+
+@media (max-width: 500px) {
+
+    p {
+        font-size: 12px;
+    }
+
+}
