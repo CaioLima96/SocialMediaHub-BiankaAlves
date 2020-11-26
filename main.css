@@ -9,6 +9,10 @@ body {
     max-width: 600px !important;
 }
 
+
+
+/***************************BUTTONS***************************/
+
 section > div {
     margin-bottom: 5%;
 }
@@ -31,6 +35,10 @@ section > div {
     box-shadow: 5px 6px 8px rgb(39, 36, 36);
 }
 
+
+
+/***************************FOOTER***************************/
+
 footer p, footer a {
     color: white;
     text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -46,7 +54,9 @@ footer a:hover, img:hover {
     font-weight: bold;
 }
 
-/*@media*/
+
+
+/***************************@MEDIA***************************/
 
 @media (max-width: 800px) {
     
