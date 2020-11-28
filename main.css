@@ -1,6 +1,6 @@
 body {
     background-color: lightblue !important;
-    background-image: url("img/fundo4.jpg");
+    background-image: url("img/fundo.jpg");
     background-size: 48%;
     background-position: 24% 27%;
 }
@@ -74,6 +74,11 @@ footer a:hover, img:hover {
     
     .container {
         width: 86% !important;
+    }
+
+    #profile-picture img {
+        width: 140px !important;
+        height: 100px !important;
     }
 
     section .col-md-10 {
