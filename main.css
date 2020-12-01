@@ -1,8 +1,8 @@
 body {
     background-color: lightblue !important;
-    background-image: url("img/fundo.jpg");
-    background-size: 48%;
+    background-image: url("img/fundo.png");
     background-position: 24% 27%;
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -70,8 +70,28 @@ footer a:hover, img:hover {
 
 /***************************@MEDIA***************************/
 
+@media (max-width: 370px) {
+   
+    body {
+        background-repeat: repeat !important;
+    }
+}
+
+@media (max-width: 500px) {
+
+    p {
+        font-size: 12px;
+    }
+
+}
+
 @media (max-width: 800px) {
     
+    body {
+        background-size: 456% !important;
+        background-position: 0% 28% !important;
+    }
+
     .container {
         width: 86% !important;
     }
@@ -85,12 +105,4 @@ footer a:hover, img:hover {
         padding-left: 20px !important;
         padding-right: 20px !important;
     }
-}
-
-@media (max-width: 500px) {
-
-    p {
-        font-size: 12px;
-    }
-
 }
